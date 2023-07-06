@@ -41,8 +41,9 @@ We need to include some options in the jest configuration file `jest.config.ts`:
   preset: 'ts-jest',
 ```
 
-> pnpm ts-jest config:init
-> This command generates the jest.config.js but since we are using typescript we do not need that file and we are just using the couple of options that generate, one is `testEnvironment: "node"` but `node` is the default and we can omit that and just putting `preset:"ts-jest` into our `jest.config.ts` generated previously
+`pnpm ts-jest config:init`
+
+> This command generates the jest.config.js but since we are using typescript we do not need that file and we are just using the couple of options that generate, one is `testEnvironment: "node"` but `"node"` is the default value and we can omit it and just put `preset:"ts-jest` into our `jest.config.ts` generated previously
 
 https://kulshekhar.github.io/ts-jest/docs/getting-started/installation/#jest-config-file
 
