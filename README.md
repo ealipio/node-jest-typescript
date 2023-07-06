@@ -2,10 +2,12 @@
 
 this repo is a skeleton to use nodejs projects with typescript and jest.
 
-You can use Typescript with just using in two ways:
+According to `https://jestjs.io/docs/getting-started` Jest supports Typescript with any of these two options:
 
     - using Babel
     - using ts-jest (our option)
+
+> here you can find a comparison between these two options [ts-jest vs babel](https://kulshekhar.github.io/ts-jest/docs/babel7-or-ts/)
 
 You can have the Jest type definitions in two ways:
 
